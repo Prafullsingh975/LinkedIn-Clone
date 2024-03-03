@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <nav className="sticky top-0 flex left-0 h-14 z-50 bg-white shadow">
-      <div className="flex max-w-[1000px] max-md:px-4 mx-auto justify-between md:gap-4">
+      <div className="flex max-w-[1000px] max-md:px-4 justify-between md:gap-4">
         <div className="flex items-center gap-2">
           <Link to="/">
             <svg
