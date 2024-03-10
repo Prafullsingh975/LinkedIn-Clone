@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           {/* home */}
           {/* profile */}
-          <Route path="/" element={<Feed />} />
+          <Route path="/feed" element={<Feed />} />
           <Route path="profile" element={<Profile />} />
         </Route>
       </Routes>

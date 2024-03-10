@@ -6,6 +6,7 @@ import AddPost from "../components/AddPost";
 import Post from "../components/Post";
 import Hiring from "../components/Hiring";
 import News from "../components/News";
+import Footer from "../components/Footer";
 
 const Feed = () => {
     const [show,setShow] = useState(false);
@@ -29,8 +30,8 @@ const Feed = () => {
             </div>
         </div>
         </div>
-        {/* <Hiring /> */}
         <div>
+        {/* <Hiring /> */}
         <AddPost />
         <div className="flex items-center justify-between h-10">
             <div className="h-[0.1rem] w-64 screen375:w-[18rem] screen425:w-[21rem] sm:w-[25.5rem] laptop:w-[18.5rem] mdLaptop:w-[29.5rem] bg-[#D3D2CF] "></div>
@@ -43,12 +44,14 @@ const Feed = () => {
             </div>
         </div>
         <Post />
-        <div className="hidden sm:flex sm:mt-2">
+        <div className="hidden sm:flex sm:mt-2 sm:flex-col laptop:hidden">
         <News />
+        <Footer />
         </div>
         </div>
-        <div className="laptop:flex mt-2 sm:hidden">
+        <div className="laptop:flex laptop:flex-col mt-2 sm:hidden">
             <News />
+        <Footer />
         </div>
         </div>
     </>

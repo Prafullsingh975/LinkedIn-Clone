@@ -9,7 +9,7 @@ const Hiring = () => {
             </div>
         </div>
         <span className='w-full flex justify-center mt-4 text-[1.3rem] text-black-a90'>Hi Prachi, I am hiring?</span>
-        <span  className='text-center flex text-[#00000099]'>Discover free and easy ways to find a great hire, fast.</span>
+        <span  className='text-center justify-center flex text-[#00000099]'>Discover free and easy ways to find a great hire, fast.</span>
     </div>
   )
 }
