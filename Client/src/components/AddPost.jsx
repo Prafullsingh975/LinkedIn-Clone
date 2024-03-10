@@ -5,10 +5,10 @@ import React from 'react'
 
 const AddPost = () => {
   return (
-    <div className='p-4 bg-white shadow flex flex-col gap-3'>
+    <div className='p-4 sm:rounded-2xl bg-white shadow flex flex-col gap-3 '>
     <div className='flex gap-2'>
         <img className='h-[3rem] w-[3rem] rounded-full' src="https://static.vecteezy.com/system/resources/previews/009/952/670/original/female-profile-picture-vector.jpg" alt="" />
-        <input className='border p-2 rounded-3xl w-full' type="text" placeholder='Start a Post' />
+        <input className='border p-2 pl-4 sm:w-[29rem] laptop:w-[19rem] mdLaptop:w-[30rem] outline-none rounded-3xl w-full placeholder:text-[#00000099] placeholder:text-[0.9rem] placeholder:font-medium' type="text" placeholder='Start a Post' />
     </div>
     <div className='flex justify-between '>
         <div className='flex items-center gap-2'>

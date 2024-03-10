@@ -3,7 +3,7 @@ import React from 'react'
 const Description = () => {
   return (
     <>
-    <div className='h-[10rem] relative bg-white shadow'>
+    <div className='h-[10rem] relative bg-white shadow sm:w-[14rem] sm:rounded-t-2xl sm:overflow-hidden'>
         <div className='h-[3.5rem] bg-gray-400'></div>
         <div className='h-[3.8rem] left-[50%] translate-x-[-50%] absolute top-6 border-2 w-[3.8rem] rounded-full bg-black'>
             {/* <img className='w-full h-full overflow-hidden' src="" alt="" /> */}
