@@ -15,7 +15,7 @@ import { MdMoreHoriz } from "react-icons/md";
 const Post = () => {
   const [show,setShow] = useState(false);
   return (
-    <div className='p-2 bg-white shadow '>
+    <div className='p-2 bg-white shadow mb-4 '>
       <div className='flex border-b-2 p-1 items-center justify-between'>
         <div className='flex items-center gap-2'>
           <img className='h-6 w-6 rounded-full' src="https://static.vecteezy.com/system/resources/previews/009/952/670/original/female-profile-picture-vector.jpg" alt="" />
@@ -129,13 +129,13 @@ const Post = () => {
               <option value="">Most Recent</option>
             </select>
             <div className="mt-2">
-              <div className="flex gap-2">
+              <div className="flex gap-2 flex-col">
+                <div className="flex gap-2">
                 <div className="h-7 w-7 bg-black rounded-full">
                   {/* <img src="" alt="" /> */}
                 </div>
-                <div>
-                <div className="flex flex-col">
-                <div className="bg-[#F2F2F2] px-4 py-2 flex flex-col ">
+                <div className="flex flex-col w-full">
+                <div className="bg-[#F2F2F2] px-4 py-2 flex flex-col">
                   <div className="flex items-center justify-between">
                   <span className="text-[0.9rem] font-medium">Ranjitha R</span>
                   <div className="flex gap-1 items-center">
@@ -149,7 +149,9 @@ const Post = () => {
                 </div>
                 <span className="text-[0.8rem] font-medium text-[#00000099]">Like | Reply</span>
                 </div>
-                <div  className="mt-2">
+                </div>
+                <div>
+                <div  className="mt-2 p-2">
                 <span className="text-[0.8rem] font-medium text-[#00000099]" onClick={(e)=>setShow(!show)}>Load {show ? 'less' : 'more'} comments</span>
                 </div>
                 </div>
