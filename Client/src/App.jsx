@@ -4,6 +4,7 @@ import Signup from "./pages/Signup";
 import Layout from "./components/Layout";
 import Profile from "./pages/Profile";
 import Feed from "./pages/Feed";
+import Network from "./pages/Network";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           {/* profile */}
           <Route path="/feed" element={<Feed />} />
           <Route path="profile" element={<Profile />} />
+          <Route path="/mynetwork" element={<Network />} />
         </Route>
       </Routes>
     </BrowserRouter>

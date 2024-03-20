@@ -51,7 +51,7 @@ const Nav = () => {
                 <div className="flex items-center">
                     <ul className="flex gap-[1.5rem] sm:gap-[3.6rem] mdLaptop:gap-[1.5rem] laptop:gap-[2.3rem] sm:mr-6 items-center text-[#00000099]">
                         <li>
-                            <Link to='/'>
+                            <Link to='/feed'>
                                 <div className="laptop:flex laptop:flex-col laptop:items-center laptop:leading-4">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ const Nav = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link to='/network'>
+                            <Link to='/mynetwork'>
                                 <div className="laptop:flex laptop:flex-col laptop:items-center laptop:leading-4">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
